@@ -13,8 +13,7 @@ class Parent {
 
         Parent();
 
-        string getA();
-
+        virtual string getA();
         virtual string getB();
         virtual string getC();
         virtual string getS();

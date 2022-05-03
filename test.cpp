@@ -22,6 +22,9 @@ int main() {
     cout << "getA -> " << c.getA() << " (expected 'aaa')" << endl;
     cout << "getB -> " << c.getB() << " (expected 'bbb')" << endl;
     cout << "getC -> " << c.getC() << " (expected 'ccc')" << endl;
+    cout << ".a -> " << c.a << " (expected 'aaa')" << endl;
+    cout << ".b -> " << c.b << " (expected 'bbb')" << endl;
+    cout << ".c -> " << c.c << " (expected 'ccc')" << endl;
     cout << "getS -> " << c.getS() << " (expected 'sss')" << endl;
     cout << "getT -> " << c.getT() << " (expected 'ttt')" << endl;
     cout << "getU -> " << c.getU() << " (expected 'uuu')" << endl;
